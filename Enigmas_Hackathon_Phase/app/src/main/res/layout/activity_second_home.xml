@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondHomeActivity"
+    android:background="@drawable/background_gradient">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="266dp"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/second_home_back"
+        android:contentDescription="@string/back_planet" />
+
+
+    <RelativeLayout
+        android:id="@+id/Headline_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/reserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reserve_nyour"
+            android:fontFamily="@font/krona"
+            android:textColor="@color/white"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:layout_below="@id/reserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journey"
+            android:fontFamily="@font/krona"
+            android:textColor="@color/pink_grad_start"
+            android:textSize="32sp"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/public_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/Headline_text">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/public_card_view"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-20dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="24dp">
+
+                <RelativeLayout
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_gradient_black">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="40dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginStart="20dp"
+                            android:id="@+id/main_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/krona"
+                            android:text="@string/public_tour"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="@font/lexendexa"
+                            android:text="@string/book_your_nextraordinary_trip_ntoday"
+                            android:textColor="@color/pink_grad_start" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="12dp"
+                android:layout_toEndOf="@+id/public_card_view"
+                android:layout_marginStart="-24dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon"
+                    android:contentDescription="@string/right_arrow"
+                    android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_forward"
+                    android:layout_marginStart="11dp"
+                    android:id="@+id/right_arrow"
+                    android:contentDescription="@string/right_arrow"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/explore_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/public_relative"
+        >
+
+        <RelativeLayout
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/explore_card_view"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_marginStart="-24dp"
+                app:cardCornerRadius="24dp">
+
+                <RelativeLayout
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_gradient_pink">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="34dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/main_name2"
+                            android:text="@string/explore"
+                            android:layout_marginStart="25dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/krona" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="@string/unlock_the_explore_nkey_to_discover_your_ncelestial_destinations"
+                            android:fontFamily="@font/lexendexa"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="12dp"
+                android:layout_toEndOf="@+id/explore_card_view"
+                android:layout_marginStart="-20dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/right_arrow" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_forward"
+                    android:layout_marginStart="11dp"
+                    android:contentDescription="@string/right_arrow"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/exclusive_relative"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/explore_relative"
+        >
+
+        <RelativeLayout
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/exclusive_card_view"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_marginStart="-24dp"
+                app:cardCornerRadius="24dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_gradient_black">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="36dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/main_name3"
+                            android:layout_marginStart="20dp"
+                            android:text="@string/exclusive_tour"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/krona" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/pink_grad_start"
+                            android:text="@string/book_your_ncustomized_trip_today"
+                            android:fontFamily="@font/lexendexa"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="12dp"
+                android:layout_toEndOf="@+id/exclusive_card_view"
+                android:layout_marginStart="-20dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon"
+                    android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_forward"
+                    android:layout_marginStart="11dp"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:contentDescription="@string/back_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/back_image_view"/>
+
+
+</RelativeLayout>

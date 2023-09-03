@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Card Background -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#4a4a4a" /> <!-- Set card's background color -->
+            <corners android:radius="8dp" /> <!-- Set corner radius to match card's corner radius -->
+        </shape>
+    </item>
+
+    <!-- Gradient Overlay -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#000000"
+                android:angle="270"/>
+            <corners android:radius="24dp" /> <!-- Set corner radius to match card's corner radius -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"> <!-- State when tab is activated -->
+        <shape>
+            <corners android:radius="24dp" />
+            <gradient
+                android:startColor="#9708CC"
+                android:endColor="#BC80D3"
+                />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="24dp" />
+            <solid android:color="#00FFFFFF" /> <!-- Default state background color -->
+        </shape>
+    </item>
+</selector>

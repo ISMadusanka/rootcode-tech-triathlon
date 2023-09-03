@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "992910136045",
+    "firebase_url": "https://spirex-e575d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "spirex-e575d",
+    "storage_bucket": "spirex-e575d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992910136045:android:da212ea9202c678a6ab2e4",
+        "android_client_info": {
+          "package_name": "com.example.spire_x_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992910136045-vfh4bmsrubll4qlp86ot7g5n9qhk0g76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE1LaomBemLkcg4oVQxAVVIpDGFbB0LDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992910136045-vfh4bmsrubll4qlp86ot7g5n9qhk0g76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Spire_X_Project</string>
+    <string name="let_s_go">LET\'S TRAVEL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_carousel">image_carousel</string>
+    <string name="discover_nyour_nultimate">DISCOVER \nYOUR \nULTIMATE</string>
+    <string name="space_nadventure">SPACE \nADVENTURE</string>
+    <string name="back_planet">back_planet</string>
+    <string name="reserve_nyour">RESERVE \nYOUR</string>
+    <string name="journey">JOURNEY</string>
+    <string name="public_tour">PUBLIC TOUR</string>
+    <string name="book_your_nextraordinary_trip_ntoday">Book Your \nExtraordinary Trip \nToday</string>
+    <string name="right_arrow">right_arrow</string>
+    <string name="explore">EXPLORE</string>
+    <string name="unlock_the_explore_nkey_to_discover_your_ncelestial_destinations">Unlock the Explore \nKey to Discover Your Celestial Destinations!</string>
+    <string name="exclusive_tour">EXCLUSIVE TOUR</string>
+    <string name="book_your_ncustomized_trip_today">Book Your \nCustomized Trip Today</string>
+    <string name="back_image">back_image</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="one_way">One Way</string>
+    <string name="passengers">PASSENGERS</string>
+    <string name="adult_12">ADULT(12+)</string>
+    <string name="infant">INFANT</string>
+    <string name="empty">---</string>
+    <string name="to">TO</string>
+    <string name="from">FROM</string>
+    <string name="celestial_luxe">Celestial Luxe</string>
+    <string name="child_2">CHILD(2+)</string>
+    <string name="next">NEXT</string>
+    <string name="each_passenger_has_a_separate_room_passengers_can_enjoy_swimming_pools_fitness_centers_movie_theaters_and_auditoriums_for_live_performances_ideal_for_extended_journeys">Each passenger has a separate room. Passengers can enjoy swimming pools,fitness centers,movie theaters, and auditoriums for live performances. Ideal for extended journeys.</string>
+    <string name="uc3495">UC3495</string>
+    <string name="proceed">PROCEED</string>
+    <string name="orian_6z_ride">ORIAN 6Z RIDE</string>
+</resources>
