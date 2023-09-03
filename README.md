@@ -5,7 +5,7 @@ The competion consists of 3 phases namely designathon, hackathon and datathon.
 
 ## 1. Desinathon Phase
 In this phase we designed the UI for our applicationa and defined the functionality of the application. Since the challenge is based on mobile first approach, we first design the UI/UX for android application.
-Access the project files here : 
+Access the project files here : https://github.com/ISMadusanka/rootcode-tech-triathlon/tree/main/Enigmas_Designathon_Phase
 
 ## 2. Hackathon Phase
 In this phase we devoloped our Android App according to our plan in desinathon phase. We managed to impliment exactly as we planed in designathon phase.
