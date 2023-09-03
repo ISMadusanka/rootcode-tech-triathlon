@@ -9,7 +9,7 @@ Access the project files here : https://github.com/ISMadusanka/rootcode-tech-tri
 
 ## 2. Hackathon Phase
 In this phase we devoloped our Android App according to our plan in desinathon phase. We managed to impliment exactly as we planed in designathon phase.
-Access the project files here : 
+Access the project files here : https://github.com/ISMadusanka/rootcode-tech-triathlon/tree/main/Enigmas_Hackathon_Phase
 
 ## 3. Datathon Phase
 This phase did't have direct relation with first and second phases. In this phase we had to develop a AI model for identifing different tumors. We develop a CNN for this and we manage to get 89% accuracy 
