@@ -14,6 +14,5 @@ In this phase, we developed our Android App according to our plan in the designa
 Access the project files [here](https://github.com/ISMadusanka/rootcode-tech-triathlon/tree/main/Enigmas_Hackathon_Phase)
 
 ## 3. Datathon Phase
-This phase didn't have a direct relation with the first and second phases. In this phase, we had to develop an AI model for identifying different tumors. We developed a CNN for this and we managed to get 89% accuracy 
-of our model. 
+This phase didn't have a direct relation with the first and second phases. In this phase, we had to develop an AI model for identifying different tumors. We developed a CNN for this and we managed to get 89% accuracy of our model. Here We had to identify tumors belonging to three categories and also identify cases with no tumor case. 
 Access the project file [here](https://github.com/ISMadusanka/rootcode-tech-triathlon/tree/main/Enigmas_Datathon_Phase)
