@@ -3,6 +3,7 @@ Team Enigmas submission for tech triathlon competition organized by [RootCode](h
 
 
 ![alt text](flyer.jpg)
+
 The competition consists of 3 phases namely designathon, hackathon, and datathon. 
 
 ## 1. Designathon Phase
