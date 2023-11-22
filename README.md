@@ -2,7 +2,7 @@
 Team Enigmas submission for tech triathlon competition organized by [RootCode](https://rootcodelabs.com/).
 
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/ISMadusanka/rootcode-tech-triathlon/blob/main/flyer.jpg))
+![alt text](flyer.jpg)
 The competition consists of 3 phases namely designathon, hackathon, and datathon. 
 
 ## 1. Designathon Phase
